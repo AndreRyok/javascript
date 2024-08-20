@@ -14,8 +14,27 @@
 </head>
 <body>
     <h1>Iniciando estudos DOM</h1>
-    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
     <p>Aqui vai o resultado</p>
-    <div>Clique em mim</div>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div>
+
+    <script>
+        var corpo = document.body;
+        var p1 = document.getElementsByTagName('h1')[0];
+        
+        /*
+        var d = document.getElementById('msg');
+        
+        p1.innerText = 'WASTED';
+        p1.style.fontSize = '1.5em';
+        corpo.style.background = 'darkred';
+        d.style.background = 'green';
+        d.innerText = 'Estou aguardando...';
+        */
+
+        var d = document.querySelector ('#msg');
+        d.style.color = 'blue';
+
+    </script>
 </body>
 </html>
