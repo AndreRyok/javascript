@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(88, 137, 236);
+    background-color: rgb(114, 114, 114);
     font: normal 15pt arial;
 }
 
@@ -15,6 +15,32 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.333);
+}
+
+#txtano{
+    list-style: none;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+
+#botao{
+    border: none;
+    background-color: rgba(175, 175, 175, 0.473);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
+    border-radius: 15px;
+    padding: 6px;
+}
+
+#botao:hover{
+    background-color: rgba(0, 153, 255, 0.507);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+#imagem{
+    display: flex;
+    margin: auto;
+    padding-bottom: 13px;
 }
 
 footer{
